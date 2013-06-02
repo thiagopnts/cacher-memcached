@@ -1,0 +1,20 @@
+{
+  "name": "cacher-memcached",
+  "version": "0.0.0",
+  "description": "A pluggable backend for Cacher that uses memcached",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/addisonj/cacher-memcached.git"
+  },
+  "keywords": [
+    "cacher",
+    "memcached",
+    "http-caching"
+  ],
+  "author": "addisonj",
+  "license": "BSD"
+}
