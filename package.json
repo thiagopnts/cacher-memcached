@@ -16,5 +16,11 @@
     "http-caching"
   ],
   "author": "addisonj",
-  "license": "BSD"
+  "license": "BSD",
+  "dependencies": {
+    "memcached": "~0.2.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.10.0"
+  }
 }
