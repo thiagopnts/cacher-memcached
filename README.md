@@ -11,6 +11,7 @@ Additionally, it can take an existing memcached connection and resuse it:
 ```JavaScript
 var memcached = require('memcached')(['host1', 'host2'], {retries: 100})
 var Cacher = require('cacher')
-var cacher = new Cacher(memcached)
+var CacherMemcached = require('cacher-memcached')
+var cacher = new Cacher(new CacherMemcached(memcached))
 ```
 

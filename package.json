@@ -1,6 +1,6 @@
 {
   "name": "cacher-memcached",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A pluggable backend for Cacher that uses memcached",
   "main": "index.js",
   "scripts": {
