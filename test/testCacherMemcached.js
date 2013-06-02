@@ -8,7 +8,6 @@ describe("MemcachedClient", function() {
     cache.set("key1", {boop: true}, D_TTL, function(err) {
       assert.ifError(err)
       cache.get("key1", function(err, val) {
-        console.log("no?")
         assert.ifError(err)
         assert(val, {boop: true})
         done()
