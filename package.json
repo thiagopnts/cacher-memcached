@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/addisonj/cacher-memcached.git"
+    "url": "git://github.com/thiagopnts/cacher-memcached.git"
   },
   "keywords": [
     "cacher",
@@ -18,7 +18,6 @@
   "author": "addisonj",
   "license": "BSD",
   "dependencies": {
-    "memcached": "~0.2.2"
   },
   "devDependencies": {
     "mocha": "~1.10.0"
